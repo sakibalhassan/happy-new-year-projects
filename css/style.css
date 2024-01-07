@@ -212,3 +212,80 @@
 #offer-part .container .right img {
     width: 140px;
 }
+
+
+/* holyday styles */
+#holyday {
+    padding: 100px 0;
+}
+
+#holyday .container .text h3 {
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+#holyday .container .text h2 {
+    color: #070211;
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+    margin: 7px 0 27px;
+}
+
+#holyday .container .text h2 span {
+    color: #F00;
+}
+
+#holyday .container .text p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    width: 1068px;
+    margin-bottom: 30px;
+}
+
+#holyday .container .discount {
+    width: 1320px;
+    height: 663px;
+    /* border: 1px solid red; */
+    position: relative;
+}
+
+#holyday .container .discount .red {
+    width: 1320px;
+    height: 229px;
+    border-radius: 16px 0px 16px 16px;
+    background: #F00;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    transform: translateY(-100%);
+}
+
+#holyday .container .discount .red img {
+    width: 674px;
+    position: absolute;
+    left: 0;
+    top: -300px;
+}
+
+#holyday .container .discount .images {
+    width: 429px;
+    height: 433px;
+    background: url("../images/Rectangle\ 1.png");
+    position: absolute;
+    left: 100%;
+    top: 0;
+    transform: translateX(-100%);
+}
+
+#holyday .container .discount .images img {
+    position: absolute;
+    width: 206px;
+    left: -100px;
+    top: 140px;
+}
