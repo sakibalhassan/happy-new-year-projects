@@ -37,3 +37,39 @@
     line-height: 95px;
     width: 632px;
 }
+
+/* off part section styles */
+#off-part {
+    margin: 120px 0;
+}
+
+#off-part .container .text h1 {
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+#off-part .container .text h3 {
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 48px 0 6px;
+}
+
+#off-part .container .text h2 {
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+#off-part .container .images {
+    text-align: center;
+    margin-top: 48px;
+}
+
+#off-part .container .images img {
+    width: 800px;
+}
