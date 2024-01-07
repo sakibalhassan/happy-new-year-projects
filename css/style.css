@@ -1,0 +1,39 @@
+/* commn css styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+/* banner section styles */
+
+
+#banner-part .container {
+    background: url("../images/Banner\ Image.png");
+}
+
+#banner-part .container .text {
+    padding: 177px 334px;
+}
+
+#banner-part .container .text h2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+#banner-part .container .text h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    width: 632px;
+}
